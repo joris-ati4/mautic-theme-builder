@@ -1,0 +1,15 @@
+{
+  "name": "mautic-theme-builder",
+  "version": "1.0.0",
+  "description": "A base theme to make mautic theme building easier",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-zip": "^4.0.0"
+  }
+}

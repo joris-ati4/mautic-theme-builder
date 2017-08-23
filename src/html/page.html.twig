@@ -1,0 +1,21 @@
+{# themes/mautic-theme-builder/html/form.html.twig #}
+
+{% extends ":"~template~":base.html.twig" %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+    <head>
+        {% if page is defined %}
+        <title>{pagetitle}</title>
+        <meta name="description" content="{pagemetadescription}">
+        {% endif %}
+        {{ outputHeadDeclarations() }}
+    </head>
+    <body>
+        {{ outputScripts('bodyOpen') }}
+        {% block content %}{% endblock %}
+        {{ outputScripts('bodyClose') }}
+    </body>
+</html>
+{% endblock %}

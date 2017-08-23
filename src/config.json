@@ -1,0 +1,10 @@
+{
+  "name": "mautic-theme-builder",
+  "author": "< YOUR NAME >",
+  "authorUrl": "< YOUR URL >",
+  "features": [
+    "email",
+    "form",
+    "page"
+  ]
+}
